@@ -3,7 +3,7 @@
 
 # include <stdio.h>
 
-int	busqueda_binaria(int num, int len, int *list);
-void	ordenacion_seleccion(int len, int *list);
+int	binary_search(int num, int len, int *list);
+void	selection_sort(int len, int *list);
 
 # endif
