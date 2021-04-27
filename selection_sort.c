@@ -1,6 +1,6 @@
 #include "algorithm.h"
 
-static void	swap_value(int men, int *index, int *find)
+static void	swap_value(int *index, int *find)
 {
 	int	tmp;
 
@@ -32,7 +32,7 @@ void	selection_sort(int len, int *list)
 			pos++;
 		}
 		if (men != list[index])
-			swap_value(men, &list[index], &list[find]);
+			swap_value(&list[index], &list[find]);
 		index++;
 	}
 }
