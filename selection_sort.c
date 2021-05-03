@@ -5,7 +5,7 @@ static void	swap_value(int *index, int *find)
 	int	tmp;
 
 	tmp = *index;
-	*index = men;
+	*index = *find;
 	*find = tmp;
 }
 
