@@ -13,6 +13,9 @@ In Computer Science, **_algorithm analysis is about finding and studying their c
 Algorithm analysis is part of a broad theory of computational complexity, which provides theoretical estimates of the resources an algorithm needs to solve a computational problem. When doing a theoretical analysis of algorithms, it is normal to use an asymptotic sense to study the complexity function related to large inputs. To this end, we use **notations**. 
 
 ### Asymptotic Notation
+<img width="417" align="right" alt="Asymptotic Graphic" src="https://user-images.githubusercontent.com/74931024/117694441-72556100-b1bf-11eb-9f98-cb442d5d418d.png">
+
+When analyzing whether an algorithm is optimized or not, one of the most important points to study is the time required to execute it successfully. We are interested in time, so we have to distinguish some aspects of this part. The running time of an algorithm depends on how long the computer takes to execute the code, it depends on the programming language, and it depends on the compiler, etc. But this is not what we are trying to study, we are interested in the [**time that the algorithm needs to run**](https://es.khanacademy.org/computing/computer-science/algorithms) regardless of the medium that supports it. To do this, we think about how much the complexity function grows as the input grows. We call this **run-time growth rate** and this is when we use the **_asymptotic notation_**. Since we want a function that can always receive an input, without worrying about its length, the fact of being asymptotic ensures that it will never go outside the limits of the function.
 
 ### Big O
 
