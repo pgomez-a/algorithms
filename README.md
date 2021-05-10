@@ -30,7 +30,7 @@ Therefore, the complexity of an algorithm tells us how the algorithm behaves whe
 ### Data Structures
 They allow us to store data and manipulate complex information made up of basic data or other data structures in our programs and algorithms. The most important data structures that we can learn as beginners are:
 
-<img width="704" align="center" alt="Linked List" src="https://user-images.githubusercontent.com/74931024/117706399-86a05a80-b1cd-11eb-9934-73741c26ce9d.png">
+<img width="750" align="center" alt="Linked List" src="https://user-images.githubusercontent.com/74931024/117706399-86a05a80-b1cd-11eb-9934-73741c26ce9d.png">
 
 * **Arrays:** there are two different types of arrays: static and dynamic arrays. Static arrays have a fixed length, while dynamic arrays are not. Dynamic arrays are much more flexible but can be slower or take up more memory than static arrays.
 * **Linked Lists:** similar to arrays if we consider that both are lists of items, although the implementation is different. A linked list is made up of nodes, where each node has a value and a pointer to the next node in the list. The advantage over arrays is that inserting an element is very easy, you just have to change the references of the nodes while in arrays you have to move all the elements of the list (in case you want to insert an element at the top of the list). The problem is that, with linked lists, it is impossible to read the list randomly, so we always have to read the list from top to bottom to get the value of some position.
