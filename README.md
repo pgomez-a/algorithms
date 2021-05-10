@@ -41,8 +41,16 @@ They allow us to store data and manipulate complex information made up of basic 
 <img width="750" align="center" alt="Linked List" src="https://user-images.githubusercontent.com/74931024/117706399-86a05a80-b1cd-11eb-9934-73741c26ce9d.png">
 
 ### Dynamic Programming
+Technique used to improve some algorithms. The algorithms that can be optimized with this technique are those that use the same operations several times. Despite doing the same operations each time, **the algorithm can be optimized if the result of the operations is stored to have it for the next time**. This could be very useful in a recursive Fibonacci function, where we have to calculate the same values many times.
 
 ### Stack
+A stack is an ordered list or data structure that allows storing and retrieving data, with a LIFO structure. The operations that we can do with a stack are the following:
+* **create_stack():** creates a stack.
+* **stack_size(stack):** returns the size of the given stack.
+* **stack(elem, stack):** stacks item to the given stack.
+* **unstack(stack):** unstack the item at the top of the stack.
+* **read_last(stack):** read the element from the bottom of the stack.
+* **stack_empty(stack):** return 1 if empty, 0 otherwise.
 
 ### Efficiency of an algorithm
 
