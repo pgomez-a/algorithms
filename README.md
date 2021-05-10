@@ -49,7 +49,7 @@ They allow us to store data and manipulate complex information made up of basic 
 
 ### Binary Search
 Also know as <b>half-interval search</b>, is a <b>search</b> algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array.<br>
-<img width="493" alt="binary_search" src="https://user-images.githubusercontent.com/74931024/115127964-e2b2fd00-9fda-11eb-86af-b7aeb18ad017.png">
+    <img width="450" alt="binary_search" src="https://user-images.githubusercontent.com/74931024/115127964-e2b2fd00-9fda-11eb-86af-b7aeb18ad017.png">
 
 
 ### Selection Sort
