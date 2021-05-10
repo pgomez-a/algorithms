@@ -21,7 +21,7 @@ To do this, we think about how much the complexity function grows as the input g
 ### Big O
 Therefore, the complexity of an algorithm tells us how the algorithm behaves when the input grows. The complexity of an algorithm is independent of the computer where it is executed and is defined with Big O notation (how many operations do we need while the input is increasing).<br>
 <br>
-<img width="450" align="right" alt="Complexity Graphic" src="https://user-images.githubusercontent.com/74931024/117700076-dbd86e00-b1c5-11eb-8aaa-df674b6f61f1.png">
+<img width="480" align="right" alt="Complexity Graphic" src="https://user-images.githubusercontent.com/74931024/117700076-dbd86e00-b1c5-11eb-8aaa-df674b6f61f1.png">
 * **Linear Complexity:** as data grows, the number of operations grows proportionally.        **O(n)**
 * **Exponential Complexity:** as data grows, the number of operations grows exponentailly.    **O(n^2)**
 * **Logarithmic Complexity:** as data grows, the number of operations grows logarithmically.  **O(logn)**
