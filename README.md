@@ -30,8 +30,6 @@ Therefore, the complexity of an algorithm tells us how the algorithm behaves whe
 ### Data Structures
 They allow us to store data and manipulate complex information made up of basic data or other data structures in our programs and algorithms. The most important data structures that we can learn as beginners are:
 
-<img width="750" align="center" alt="Linked List" src="https://user-images.githubusercontent.com/74931024/117706399-86a05a80-b1cd-11eb-9934-73741c26ce9d.png">
-
 * **Arrays:** there are two different types of arrays: static and dynamic arrays. Static arrays have a fixed length, while dynamic arrays are not. Dynamic arrays are much more flexible but can be slower or take up more memory than static arrays.
 * **Linked Lists:** similar to arrays if we consider that both are lists of items, although the implementation is different. A linked list is made up of nodes, where each node has a value and a pointer to the next node in the list. The advantage over arrays is that inserting an element is very easy, you just have to change the references of the nodes while in arrays you have to move all the elements of the list (in case you want to insert an element at the top of the list). The problem is that, with linked lists, it is impossible to read the list randomly, so we always have to read the list from top to bottom to get the value of some position.
 * **Qeues:** data structure consisting of a FIFO (First input, first output) structure. This means that we can only insert one item at the bottom of the list and delete the item that is at the top of the list. Any different insertion or extraction operation is prohibited.
@@ -40,6 +38,7 @@ They allow us to store data and manipulate complex information made up of basic 
 * **Tree:** made by nodes. A tree has a root node with a pointer to NULL or with more child nodes. These nodes also point to other child nodes, and so on. Nodes that do not have nodes are leaf nodes; and binary trees are those whose nodes can only have two child nodes.
 * **Graphs:** graphs are nodes interrelated with each other through connections. The nodes are known as vertices, while the connections are known as edges.
 * **Sets:** data structure of elements that cannot be duplicated.
+<img width="750" align="center" alt="Linked List" src="https://user-images.githubusercontent.com/74931024/117706399-86a05a80-b1cd-11eb-9934-73741c26ce9d.png">
 
 ### Dynamic Programming
 
