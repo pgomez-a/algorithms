@@ -56,12 +56,18 @@ Lastly, before showing you the algorithms I'm going to cover, I'd like to show y
 
 <img width="931" alt="Efficiency Table" src="https://user-images.githubusercontent.com/74931024/117777989-74f69b80-b23d-11eb-8bc1-aadc98340b0e.png">
 
+### Linear Search O(n)
+Algorithm used to find an item in a list. It looks from position 0 to the length of the stack, and when it finds the element, it returns the position where the element was found.
 
-### Binary Search
-Also know as <b>half-interval search</b>, is a <b>search</b> algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array.<br>
-    <img width="450" alt="binary_search" src="https://user-images.githubusercontent.com/74931024/115127964-e2b2fd00-9fda-11eb-86af-b7aeb18ad017.png">
+<img width="500" alt="Linear Seach" src="https://user-images.githubusercontent.com/74931024/117796134-133f2d00-b24f-11eb-8505-546b8c12e68c.png">
 
+### Binary Search O(log n)
+Efficient algorithm when we want to search for an item in an ordered list. It works by repeatedly halving the part of the list where we want to find the item, until there is only one part to divide, which is the worst case where we can find the item.
 
-### Selection Sort
-This algorithm sorts an array by repeatedly finding the minimun element (considering ascending order) from unsorted part and putting it at the beginning.<br>
-<img width="493" alt="selection_sort" src="https://user-images.githubusercontent.com/74931024/115128053-64a32600-9fdb-11eb-86c0-08bfbef7d1cb.png">
+<img width="500" alt="Binary Search" src="https://user-images.githubusercontent.com/74931024/117793192-47fdb500-b24c-11eb-8ba4-fe6ec8e0040c.png">
+
+### Selection Sort O(n^2)
+Algorithm that sorts an unordered list by finding the smallest number in the list and placing it in the first part, then the second, etc. It does this repeatedly until the list is sorted.
+
+<img width="500" alt="Selection Sort" src="https://user-images.githubusercontent.com/74931024/117800081-150aef80-b253-11eb-8e9c-ea677f5a9d9f.png">
+
