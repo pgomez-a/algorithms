@@ -77,4 +77,5 @@ This algorithm sorts an unordered list of items by traversing the list item by i
 <img width="500" alt="Insertion Sort" src="https://user-images.githubusercontent.com/74931024/117806200-4509c100-b25a-11eb-8d9f-311aaab2d76f.png">
 
 
-I am curretnly working on this repo, so you will be able to find more soon 😛 :atom:
+**I am currently working on this repo, so you will be able to find more soon 😛 :atom:**<br>
+**Remember you can [_contact me for any proposal here!_](https://github.com/pgomez-a)**
