@@ -38,13 +38,12 @@ They allow us to store data and manipulate complex information made up of basic 
 * **Tree:** made by nodes. A tree has a root node with a pointer to NULL or with more child nodes. These nodes also point to other child nodes, and so on. Nodes that do not have nodes are leaf nodes; and binary trees are those whose nodes can only have two child nodes.
 * **Graphs:** graphs are nodes interrelated with each other through connections. The nodes are known as vertices, while the connections are known as edges.
 * **Sets:** data structure of elements that cannot be duplicated.
-<img width="750" align="center" alt="Linked List" src="https://user-images.githubusercontent.com/74931024/117706399-86a05a80-b1cd-11eb-9934-73741c26ce9d.png">
 
 ### Dynamic Programming
 Technique used to improve some algorithms. The algorithms that can be optimized with this technique are those that use the same operations several times. Despite doing the same operations each time, **the algorithm can be optimized if the result of the operations is stored to have it for the next time**. This could be very useful in a recursive Fibonacci function, where we have to calculate the same values many times.
 
 ### Stack
-A stack is an ordered list or data structure that allows storing and retrieving data, with a LIFO structure. The operations that we can do with a stack are the following:
+If you have seen my [**_push_swap repository_**](https://github.com/pgomez-a/push_swap), you may want to know the things we can do with a stack. A stack is an ordered list or data structure that allows storing and retrieving data, with a LIFO structure. The operations that we can do with a stack are the following:
 * **create_stack():** creates a stack.
 * **stack_size(stack):** returns the size of the given stack.
 * **stack(elem, stack):** stacks item to the given stack.
@@ -53,6 +52,10 @@ A stack is an ordered list or data structure that allows storing and retrieving 
 * **stack_empty(stack):** return 1 if empty, 0 otherwise.
 
 ### Efficiency of an algorithm
+Lastly, before showing you the algorithms I'm going to cover, I'd like to show you a table that compares the efficiency of all these algorithms. With this table, we compare the length of the input with the return value of the complexity function:
+
+<img width="931" alt="Efficiency Table" src="https://user-images.githubusercontent.com/74931024/117777989-74f69b80-b23d-11eb-8bc1-aadc98340b0e.png">
+
 
 ### Binary Search
 Also know as <b>half-interval search</b>, is a <b>search</b> algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array.<br>
