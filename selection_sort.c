@@ -1,5 +1,9 @@
 #include "algorithms.h"
 
+/**
+ ** Returns the smallest item in the list
+ **/
+
 static int	smallest_num(int num, int len, int *list)
 {
 	int	count;
