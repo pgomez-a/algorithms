@@ -59,7 +59,7 @@ Lastly, before showing you the algorithms I'm going to cover, I'd like to show y
 ### Linear Search O(n)
 Algorithm used to find an item in a list. It looks from position 0 to the length of the stack, and when it finds the element, it returns the position where the element was found.
 
-<img width="500" alt="Linear Seach" src="https://user-images.githubusercontent.com/74931024/117796134-133f2d00-b24f-11eb-8505-546b8c12e68c.png">
+<img width="500" alt="Linear Search" src="https://user-images.githubusercontent.com/74931024/117796134-133f2d00-b24f-11eb-8505-546b8c12e68c.png">
 
 ### Binary Search O(log n)
 Efficient algorithm when we want to search for an item in an ordered list. It works by repeatedly halving the part of the list where we want to find the item, until there is only one part to divide, which is the worst case where we can find the item.
@@ -71,3 +71,7 @@ Algorithm that sorts an unordered list by finding the smallest number in the lis
 
 <img width="500" alt="Selection Sort" src="https://user-images.githubusercontent.com/74931024/117800081-150aef80-b253-11eb-8e9c-ea677f5a9d9f.png">
 
+### Insertion Sort O(n^2)
+This algorithm sorts an unordered list of items by traversing the list item by item, and if it finds that an item is smaller than its previous item, it calls a function that places this item in the right part of the list. For example, if we have 1 2 4 3 5, it will stop at 3 and find that 3 is greater than 2 and less than 4, so the sort operation will return 1 2 3 4 5.
+
+<img width="500" alt="Insertion Sort" src="https://user-images.githubusercontent.com/74931024/117806200-4509c100-b25a-11eb-8d9f-311aaab2d76f.png">
