@@ -75,3 +75,6 @@ Algorithm that sorts an unordered list by finding the smallest number in the lis
 This algorithm sorts an unordered list of items by traversing the list item by item, and if it finds that an item is smaller than its previous item, it calls a function that places this item in the right part of the list. For example, if we have 1 2 4 3 5, it will stop at 3 and find that 3 is greater than 2 and less than 4, so the sort operation will return 1 2 3 4 5.
 
 <img width="500" alt="Insertion Sort" src="https://user-images.githubusercontent.com/74931024/117806200-4509c100-b25a-11eb-8d9f-311aaab2d76f.png">
+
+
+I am curretnly working on this repo, so you will be able to find more soon 😛 :atom:
