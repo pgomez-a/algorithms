@@ -1,38 +1,43 @@
-#include "algorithm.h"
+#include "algorithms.h"
 
-static void	swap_value(int *index, int *find)
+static int	smallest_num(int num, int len, int *list)
 {
-	int	tmp;
+	int	count;
 
-	tmp = *index;
-	*index = *find;
-	*find = tmp;
+	count = 0;
+	while (count < len)
+	{
+		if (list[count] < num)
+			return (0);
+		count++;
+	}
+	return (1);
 }
+
+/**
+ ** Sort a list in ascending order
+ **/
 
 void	selection_sort(int len, int *list)
 {
-	int	index;
-	int	pos;
-	int	find;
-	int	men;
+	int	count_y;
+	int	count_x;
+	int	num;
 
-	index = 0;
-	while (index < len)
+	count_y = 0;
+	while (count_y < len)
 	{
-		pos = index + 1;
-		find = index;
-		men = list[index];
-		while (pos < len)
+		count_x = count_y + 1;
+		while (count_x < len)
 		{
-			if (list[pos] < men)
+			if (smallest_num(list[count_x], len - count_y, list + count_y))
 			{
-				men = list[pos];
-				find = pos;
+				num = list[count_x];
+				list[count_x] = list[count_y];
+				list[count_y] = num;
 			}
-			pos++;
+			count_x++;
 		}
-		if (men != list[index])
-			swap_value(&list[index], &list[find]);
-		index++;
+		count_y++;
 	}
 }

@@ -1,22 +1,26 @@
-#include "algorithm.h"
+#include "algorithms.h"
+
+/**
+ ** Returns the position of the item we want to find
+ **/
 
 int	binary_search(int num, int len, int *list)
 {
 	int	start;
-	int	middle;
+	int	end;
+	int	pos;
 
 	start = 0;
-	len--;
-	middle = len / 2;
-	while (list[middle] != num)
+	end = len - 1;
+	while (start <= end)
 	{
-		if (list[middle] > num)
-			len = middle - 1;
-		else if (list[middle] < num)
-			start = middle + 1;
-		middle = start + (len - start) / 2;
-		if (start > len)
-			return (-1);
+		pos = start + ((end - start) / 2);
+		if (list[pos] == num)
+			return (pos);
+		else if (list[pos] < num)
+			start = pos + 1;
+		else if (list[pos] > num)
+			end = pos - 1;
 	}
-	return (middle);
+	return (-9999);
 }
