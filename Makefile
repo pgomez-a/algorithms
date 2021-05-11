@@ -2,7 +2,8 @@
 
 SRCS	= linear_search.c	\
 	  binary_search.c	\
-	  selection_sort.c
+	  selection_sort.c	\
+	  insertion_sort.c
 
 OBJS	= $(SRCS:.c=.o)
 

@@ -19,7 +19,7 @@ static int	smallest_num(int num, int len, int *list)
 }
 
 /**
- ** Sort a list in ascending order
+ ** Sorts a list in ascending order
  **/
 
 void	selection_sort(int len, int *list)
