@@ -1,7 +1,7 @@
 # algorithms
 <img width="275" align="right" alt="Algorithm of success" src="https://user-images.githubusercontent.com/74931024/117683441-5c8e6e80-b1b4-11eb-9571-9f82d40606d4.png">
 
-**If you want to learn more about IT topics, visit my website:** [**IA Notes**](https://ia-notes.com/)
+**If you want to learn more about IT topics, [I invite you to join my Patreon channel](https://www.patreon.com/pgomeza) and visit my website:** [**IA Notes**](https://ia-notes.com/)
 
 An **algorithm** is a process or set of rules that must be followed in calculations or other troubleshooting operations, especially by a computer. As programmers, most of the time we need to use some algorithms to improve our programs and make them better and more efficient.<br>
 I have decided to make a notebook with some of the most useful algorithms you might need for your programs, so you don't need to break your head to find an optimized solution for your code. Feel free to use, manipulate, and do whatever you want with this repository. If you find any errors or want to improve it, <a href="https://github.com/pgomez-a">please do not hesitate to contact me.</a><br>
